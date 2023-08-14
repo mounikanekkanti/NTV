@@ -1,4 +1,15 @@
 :root {
+  --collection-1-neutral-gray300: rgba(208, 213, 221, 1);
+  --collection-1-neutral-gray700: rgba(52, 64, 84, 1);
+  --collection-1-primary-color-gray100: rgba(242, 244, 247, 1);
+  --collection-1-primary-color-gray200: rgba(234, 236, 240, 1);
+  --collection-1-primary-color-gray25: rgba(252, 252, 253, 1);
+  --collection-1-primary-color-gray300: rgba(208, 213, 221, 1);
+  --collection-1-primary-color-gray400: rgba(152, 162, 179, 1);
+  --collection-1-primary-color-gray600: rgba(71, 84, 103, 1);
+  --collection-1-primary-color-gray700: rgba(52, 64, 84, 1);
+  --collection-1-primary-color-gray800: rgba(29, 41, 57, 1);
+  --collection-1-white: rgba(255, 255, 255, 1);
   --display-xs-medium-font-family: "Inter-Medium", Helvetica;
   --display-xs-medium-font-size: 24px;
   --display-xs-medium-font-style: normal;
@@ -9,11 +20,8 @@
   --gray-700: rgba(52, 64, 84, 1);
   --gray-800: rgba(29, 41, 57, 1);
   --gray-900: rgba(16, 24, 40, 1);
-  --light-controls: rgba(255, 255, 255, 1);
-  --pink-25: rgba(254, 246, 251, 1);
   --pink-500: rgba(238, 70, 188, 1);
   --primary-500: rgba(158, 119, 237, 1);
-  --shadow-lg: 0px 4px 6px -2px rgba(105, 65, 198, 0.03), 0px 12px 16px -4px rgba(105, 65, 198, 0.08);
   --shadow-xs: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
   --success-400: rgba(50, 213, 131, 1);
   --success-500: rgba(18, 183, 106, 1);
@@ -41,12 +49,12 @@
   --text-xs-medium-font-weight: 500;
   --text-xs-medium-letter-spacing: 0px;
   --text-xs-medium-line-height: 18px;
-  --text-xs-semibold-font-family: "Inter-SemiBold", Helvetica;
-  --text-xs-semibold-font-size: 12px;
-  --text-xs-semibold-font-style: normal;
-  --text-xs-semibold-font-weight: 600;
-  --text-xs-semibold-letter-spacing: 0px;
-  --text-xs-semibold-line-height: 18px;
+  --text-xs-regular-font-family: "Inter-Regular", Helvetica;
+  --text-xs-regular-font-size: 12px;
+  --text-xs-regular-font-style: normal;
+  --text-xs-regular-font-weight: 400;
+  --text-xs-regular-letter-spacing: 0px;
+  --text-xs-regular-line-height: 18px;
   --warning-500: rgba(247, 144, 9, 1);
   --white: rgba(255, 255, 255, 1);
   --widget-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px rgba(108, 73, 172, 0.02),
@@ -55,4 +63,42 @@
     0px 22.3363094329834px 17.869047164916992px 0px rgba(108, 73, 172, 0.04),
     0px 41.777610778808594px 33.422088623046875px 0px rgba(108, 73, 172, 0.05),
     0px 100px 80px 0px rgba(108, 73, 172, 0.07);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-collection-1-mode="light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-collection-1-mode="light"] {
+  --collection-1-neutral-gray300: rgba(208, 213, 221, 1);
+  --collection-1-neutral-gray700: rgba(52, 64, 84, 1);
+  --collection-1-primary-color-gray100: rgba(242, 244, 247, 1);
+  --collection-1-primary-color-gray200: rgba(234, 236, 240, 1);
+  --collection-1-primary-color-gray25: rgba(252, 252, 253, 1);
+  --collection-1-primary-color-gray300: rgba(208, 213, 221, 1);
+  --collection-1-primary-color-gray400: rgba(152, 162, 179, 1);
+  --collection-1-primary-color-gray600: rgba(71, 84, 103, 1);
+  --collection-1-primary-color-gray700: rgba(52, 64, 84, 1);
+  --collection-1-primary-color-gray800: rgba(29, 41, 57, 1);
+}
+
+[data-collection-1-mode="dark"] {
+  --collection-1-neutral-gray300: rgba(102, 112, 133, 1);
+  --collection-1-neutral-gray700: rgba(242, 244, 247, 1);
+  --collection-1-primary-color-gray100: rgba(255, 255, 255, 1);
+  --collection-1-primary-color-gray200: rgba(255, 255, 255, 1);
+  --collection-1-primary-color-gray25: rgba(255, 255, 255, 1);
+  --collection-1-primary-color-gray300: rgba(255, 255, 255, 1);
+  --collection-1-primary-color-gray400: rgba(255, 255, 255, 1);
+  --collection-1-primary-color-gray600: rgba(255, 255, 255, 1);
+  --collection-1-primary-color-gray700: rgba(255, 255, 255, 1);
+  --collection-1-primary-color-gray800: rgba(255, 255, 255, 1);
 }
