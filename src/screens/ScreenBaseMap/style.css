@@ -1078,7 +1078,7 @@
 .screen-base-map .widget {
   align-items: flex-start;
   border-radius: 10px;
-  box-shadow: var(--widget-shadow);
+  /* box-shadow: var(--widget-shadow); */
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -1599,9 +1599,11 @@
   position: relative;
   width: 8px;
 }
-.map-image {
+.map-image1 {
     position: absolute;
-    width: 115%;
+    width: 124%;
     top: 145px;
     height: 85%;
+    border: none;
 }
+
