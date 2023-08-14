@@ -1,5 +1,5 @@
 .screen {
-  background-color: #1e1e20;
+  /* background-color: #1e1e20; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 .screen .overlap-wrapper {
-  background-color: #1e1e20;
+  /* background-color: #1e1e20; */
   border: 1px none;
   height: 950px;
   overflow: hidden;
@@ -670,7 +670,7 @@
 
 .screen .basemap-control-bar {
   align-items: center;
-  background: linear-gradient(180deg, rgba(240.12, 240.12, 240.12, 0.62) 0%, rgba(229.69, 229.69, 231.63, 0) 100%);
+  /* background: linear-gradient(180deg, rgba(240.12, 240.12, 240.12, 0.62) 0%, rgba(229.69, 229.69, 231.63, 0) 100%); */
   display: flex;
   left: 0;
   padding: 16px 16px 0px;

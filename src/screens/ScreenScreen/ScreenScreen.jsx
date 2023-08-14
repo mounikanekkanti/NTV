@@ -8,8 +8,10 @@ export const ScreenScreen = () => {
       <div className="overlap-group-wrapper">
         <div className="overlap-2">
           <div className="basemap-2" />
+          <iframe class="map-image1" width='100%' height='400px' src="https://api.mapbox.com/styles/v1/imvknow123/cllapmo2d00qm01pbdp359t17.html?title=false&access_token=pk.eyJ1IjoiaW12a25vdzEyMyIsImEiOiJjbGw2bzhrOW4wMTBjM2trZDZkZnQwM3N0In0.zLRRTkP6mIwKvUUkgT6avg&zoomwheel=false#3.62/36.73/-99.28" title="Flat Map Light Mode-copy" ></iframe>
+          </div>
           <div className="toolbar-2">
-            <h3>hiii</h3>
+ 
             <img className="img-3" alt="Layers" src="/img/layers-1.svg" />
             <img className="img-3" alt="Overlays" src="/img/overlays-1.svg" />
             <img className="img-3" alt="Draw" src="/img/draw-1.svg" />
@@ -322,6 +324,6 @@ export const ScreenScreen = () => {
           </div>
         </div>
       </div>
-    </div>
+
   );
 };

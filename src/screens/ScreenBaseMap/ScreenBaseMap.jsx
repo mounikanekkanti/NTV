@@ -8,7 +8,7 @@ export const ScreenBaseMap = () => {
         <div className="overlap">
           <div className="overlap-group">
             <div className="basemap">
-            <iframe class="map-image" src="https://api.mapbox.com/styles/v1/zachself/clkvca43w001i01rdb7ztd9fm.html?title=false&access_token=pk.eyJ1IjoiemFjaHNlbGYiLCJhIjoiY2xkc3ZxYXo1MXZxeTNubzR2em5sZTBlOCJ9.G0DHEuoCg00GraDhRheOmg&zoomwheel=false#4.27/41.33/-95.34" title="Flat Map Dark Mode"></iframe>
+            <iframe class="map-image1"  width='100%' height='400px' src="https://api.mapbox.com/styles/v1/imvknow123/cllapmo2d00qm01pbdp359t17.html?title=false&access_token=pk.eyJ1IjoiaW12a25vdzEyMyIsImEiOiJjbGw2bzhrOW4wMTBjM2trZDZkZnQwM3N0In0.zLRRTkP6mIwKvUUkgT6avg&zoomwheel=false#3.62/36.73/-99.28" title="Flat Map Light Mode-copy" ></iframe>
             </div>
             <div className="header">
               <div className="content-wrapper">
